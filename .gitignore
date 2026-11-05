@@ -1,0 +1,21 @@
+# Secrets: never commit these
+firmware/menta_firmware/secrets.h
+secrets.h
+*.pem
+*.crt
+*.key
+certs/
+certificates/
+.env
+.env.*
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arduino build output
+build/
+*.bin
+*.elf
